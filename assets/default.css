@@ -1,0 +1,58 @@
+
+.tag-body {
+  width: 100%;
+  background-color: black;
+  cursor: default;
+  font-family: AndaleMono;
+  color: white;
+  font-size: 20px;
+}
+
+.defo-box {
+  border:5px;
+  border-style:solid;
+  border-color: white;
+  padding: 1em;
+  position: absolute;
+  font-weight:
+}
+
+.defo-box2 {
+  border:5px;
+  border-style:solid;
+  border-color: white;
+  padding: 1em;
+  position: absolute;
+  font-size: 10px;
+}
+
+.first-text-align {
+  text-align: center;
+  font-size: 15px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.image-div {
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  cursor: cell;
+}
+
+.gif-zoom {
+  text-align: center;
+  transition: transform .2s; /* Animation */
+}
+
+.gif-zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
